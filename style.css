@@ -59,3 +59,7 @@ section {
 .qa-box {
   border-bottom: 1px solid #f3f3f3;
 }
+
+.qa-box:last-child {
+  border-bottom: none;
+}
