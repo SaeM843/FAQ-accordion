@@ -46,3 +46,7 @@ section {
   font-size: 55px;
   margin-left: 25px;
 }
+
+.question {
+  display: flex;
+}
