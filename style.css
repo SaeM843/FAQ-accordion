@@ -18,9 +18,18 @@ body {
   font-size: var(--main-font-size);
 }
 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 section {
   background-color: var(--faq-box);
   max-width: 600px;
   margin: 24px;
   padding: 24px;
+  border-radius: 16px;
 }
