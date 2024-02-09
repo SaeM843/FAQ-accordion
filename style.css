@@ -23,7 +23,7 @@ body {
   flex-direction: column;
 }
 
-section {
+.faq-section {
   background-color: var(--faq-box);
   width: 600px;
   margin-bottom: 24px;
