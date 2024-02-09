@@ -50,6 +50,9 @@ section {
 .question {
   display: flex;
   justify-content: space-between;
+  font-weight: 700;
+  color: var(--main-question);
+  margin: 20px 0;
 }
 
 .answer {
