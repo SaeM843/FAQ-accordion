@@ -26,8 +26,8 @@ body {
 section {
   background-color: var(--faq-box);
   width: 600px;
-  margin: 24px;
-  padding: 24px;
+  margin-bottom: 24px;
+  padding: 25px 30px;
   border-radius: 16px;
 }
 
