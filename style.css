@@ -7,3 +7,10 @@
   --main-font: "Work Sans", sans-serif;
   --main-font-size: 16px;
 }
+
+body {
+  background-image: url(./assets/images/background-pattern-desktop.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-color: var(--main-background);
+}
