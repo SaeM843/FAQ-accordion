@@ -55,6 +55,11 @@ section {
   margin: 20px 0;
 }
 
+.question:hover {
+  cursor: pointer;
+  color: #ad28eb;
+}
+
 .hidden-answer {
   display: none;
 }
