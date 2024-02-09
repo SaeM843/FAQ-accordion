@@ -31,6 +31,18 @@ section {
   border-radius: 16px;
 }
 
+.title {
+  display: flex;
+  align-items: center;
+  color: var(--main-question);
+}
+
 .star {
   float: left;
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 55px;
+  margin-left: 25px;
 }
