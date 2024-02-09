@@ -49,4 +49,9 @@ section {
 
 .question {
   display: flex;
+  justify-content: space-between;
+}
+
+.answer {
+  display: none;
 }
