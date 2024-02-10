@@ -54,24 +54,3 @@ body {
   color: var(--main-question);
   margin: 20px 0;
 }
-
-.question:hover {
-  cursor: pointer;
-  color: #ad28eb;
-}
-
-.hidden-answer {
-  display: none;
-}
-
-.hidden-answer.active {
-  display: block;
-}
-
-.qa-box {
-  border-bottom: 1px solid #f3f3f3;
-}
-
-.qa-box:last-child {
-  border-bottom: none;
-}
