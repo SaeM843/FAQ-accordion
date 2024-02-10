@@ -54,3 +54,7 @@ body {
   color: var(--main-question);
   margin: 20px 0;
 }
+
+summary {
+  list-style-type: none;
+}
