@@ -17,6 +17,11 @@ body {
   font-family: var(--main-font);
   font-size: var(--main-font-size);
 
+  min-height: 100vh;
+}
+
+.container {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +60,7 @@ summary {
   color: var(--main-question);
   margin: 20px 0;
   font-size: 19px;
+  border: 1px solid red;
 }
 
 summary:hover {
@@ -70,4 +76,8 @@ summary:hover {
 
 hr {
   border: 1px solid #f3f3f3;
+}
+
+details[open] {
+  border: 1px solid blue;
 }
