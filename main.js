@@ -19,12 +19,12 @@ function toggleIcon() {
   // console.log(this.nextElementSibling);
   // console.log(summary.parentElement);
 
-  console.log("clicked");
-  // if (questions.parentElement.hasAttribute("open")) {
-  //   this.children[1].src = "assets/images/icon-plus.svg";
-  // } else {
-  //   this.children[1].src = "assets/images/icon-minus.svg";
-  // }
+  console.log(this);
+  if (this.parentElement.hasAttribute("open")) {
+    this.children[1].src = "assets/images/icon-plus.svg";
+  } else {
+    this.children[1].src = "assets/images/icon-minus.svg";
+  }
 }
 
 questions.forEach((question) => question.addEventListener("click", toggleIcon));
