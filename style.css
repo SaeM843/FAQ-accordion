@@ -17,11 +17,11 @@ body {
   font-family: var(--main-font);
   font-size: var(--main-font-size);
 
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .container {
-  height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,6 +81,9 @@ hr {
 @media screen and (max-width: 767px) {
   body {
     background-image: url(./assets/images/background-pattern-mobile.svg);
+  }
+  .container {
+    min-height: 100vh;
   }
   .faq-section {
     max-width: 375px;
