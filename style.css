@@ -60,7 +60,6 @@ summary {
   color: var(--main-question);
   margin: 20px 0;
   font-size: 19px;
-  border: 1px solid red;
 }
 
 summary:hover {
@@ -76,10 +75,6 @@ summary:hover {
 
 hr {
   border: 1px solid #f3f3f3;
-}
-
-details[open] {
-  border: 1px solid blue;
 }
 
 /* mobile version  */
