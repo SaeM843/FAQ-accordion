@@ -17,13 +17,14 @@ body {
   font-family: var(--main-font);
   font-size: var(--main-font-size);
 
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 
 .container {
-  height: 100vh;
+  /* height: 100vh; */
+  margin-block-start: 8.875em;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 }
