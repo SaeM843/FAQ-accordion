@@ -54,7 +54,7 @@ body {
 }
 
 summary {
-  list-style: none;
+  /* list-style: none; */
   display: block;
   /* justify-content: space-between; */
   font-weight: 600;
@@ -107,10 +107,13 @@ hr {
           }
         }
 
-        .faq-body {
-          details > sumarry::-webkit-details-marker {
+        summary {
+          display: block;
+
+          ::-webkit-details-marker {
             display: none;
           }
+        }
 
           .question {
             font-size: 20px;
