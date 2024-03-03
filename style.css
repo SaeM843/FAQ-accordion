@@ -54,18 +54,23 @@ body {
 }
 
 summary {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
+  list-style: none;
+  display: block;
+  /* justify-content: space-between; */
   font-weight: 600;
   color: var(--main-question);
   margin: 20px 0;
   font-size: 19px;
-}
 
-summary:hover {
-  cursor: pointer;
-  color: #ad28eb;
+  :hover {
+    cursor: pointer;
+    color: #ad28eb;
+  }
+
+  span {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .answer {
@@ -102,13 +107,15 @@ hr {
           }
         }
 
-        .question {
-          font-size: 20px;
-          font-weight: 700;
-        }
+        .faq-body {
+          details > sumarry::-webkit-details-marker {
+            display: none;
+          }
 
-        summary::-webkit-details-marker {
-          display: none;
+          .question {
+            font-size: 20px;
+            font-weight: 700;
+          }
         }
       }
     }
